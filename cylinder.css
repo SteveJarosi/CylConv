@@ -2,16 +2,13 @@ body {
     font-size: 20vw;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url("eye-photo.jpg");
+    background-image: url("bella-huang--p01-gN92LQ-unsplash.jpg"); 
     background-color: #b6ddf3;
-    background-position: center; /* Center the image */
+    background-position: top; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 
 }
-
-
-
 
 article {
     display: flex;
@@ -22,7 +19,7 @@ article {
 
 input {
     font-size: 4vw;
-    background-color: rgb(189, 229, 245);
+    background-color: rgb(174, 192, 199);
     width: 12vw;
 }
 
@@ -30,4 +27,20 @@ input {
     color: rgb(238, 21, 14);
     font-weight: 800;
     /* background-color: rgb(238, 245, 255); */
+}
+sup {
+    font-size: 2.5vw;
+}
+
+footer {
+    text-align: end;
+    font-size: 0.5vw;
+    color:rgb(95, 50, 18);
+}
+a {
+    color:rgb(122, 50, 26);
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(182, 56, 11);
 }
