@@ -3,7 +3,7 @@ body {
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url("bella-huang--p01-gN92LQ-unsplash.jpg"); 
-    background-color: #b6ddf3;
+    background-color: #cfc8b4;
     background-position: top; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -26,7 +26,6 @@ input {
 #dp2, #cyl2, #ax2, sup{
     color: rgb(238, 21, 14);
     font-weight: 800;
-    /* background-color: rgb(238, 245, 255); */
 }
 sup {
     font-size: 2.5vw;
@@ -34,8 +33,12 @@ sup {
 
 footer {
     text-align: end;
-    font-size: 0.5vw;
+    font-size: 0.8vw;
     color:rgb(95, 50, 18);
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    height: 2.5rem;
 }
 a {
     color:rgb(122, 50, 26);
