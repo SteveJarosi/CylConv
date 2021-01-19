@@ -1,0 +1,33 @@
+body {
+    font-size: 20vw;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("eye-photo.jpg");
+    background-color: #b6ddf3;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+
+
+
+article {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    font-size: 5vw;
+}
+
+input {
+    font-size: 4vw;
+    background-color: rgb(189, 229, 245);
+    width: 12vw;
+}
+
+#dp2, #cyl2, #ax2, sup{
+    color: rgb(238, 21, 14);
+    font-weight: 800;
+    /* background-color: rgb(238, 245, 255); */
+}
