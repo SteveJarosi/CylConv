@@ -23,7 +23,7 @@ input {
     width: 12vw;
 }
 
-#dp2, #cyl2, #ax2, sup{
+#dp2, #cyl2, #ax2, span{
     color: rgb(238, 21, 14);
     font-weight: 800;
 }
