@@ -2,12 +2,14 @@ body {
     font-size: 20vw;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url("bella-huang--p01-gN92LQ-unsplash.jpg"); 
+    background-image: url("bella-huang--p01-gN92LQ-unsplash.jpg");
     background-color: #cfc8b4;
-    background-position: top; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-
+    background-position: top;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
 }
 
 article {
@@ -23,10 +25,11 @@ input {
     width: 12vw;
 }
 
-#dp2, #cyl2, #ax2, span{
+#dp2, #cyl2, #ax2, sup {
     color: rgb(238, 21, 14);
     font-weight: 800;
 }
+
 sup {
     font-size: 2.5vw;
 }
@@ -34,16 +37,18 @@ sup {
 footer {
     text-align: end;
     font-size: 0.8vw;
-    color:rgb(95, 50, 18);
+    color: rgb(95, 50, 18);
     position: absolute;
     bottom: 0;
     width: 98%;
     height: 2.5rem;
 }
+
 a {
-    color:rgb(122, 50, 26);
+    color: rgb(122, 50, 26);
     text-decoration: none;
 }
+
 a:hover {
-    color:rgb(182, 56, 11);
+    color: rgb(182, 56, 11);
 }

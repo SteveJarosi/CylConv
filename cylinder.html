@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +9,33 @@
     <script src="cylinder.js" defer></script>
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
+
 <body>
     <article>
-    <label for='dp1'>Sph:</label>
-    <input id='dp1' onkeydown="focusNext(event)" type="number" min="-20" max="20" step="0.25" autofocus>
-    <label for='dp2'>-->&nbsp</label>
-    <p id='dp2'></p>
+        <label for='dp1'>Sph:</label>
+        <input id='dp1' onkeydown="focusNext(event)" type="number" min="-20" max="20" step="0.25" autofocus>
+        <label for='dp2'>-->&nbsp</label>
+        <p id='dp2'></p>
     </article>
 
     <article>
-    <label for='cyl1'>Cyl:</label>
-    <input id='cyl1' onkeydown="focusNext(event)" type="number" min="-6" max="6" step="0.25">
-    <label for='cyl1'>-->&nbsp</label>
-    <p id='cyl2'></p>
+        <label for='cyl1'>Cyl:</label>
+        <input id='cyl1' onkeydown="focusNext(event)" type="number" min="-6" max="6" step="0.25">
+        <label for='cyl1'>-->&nbsp</label>
+        <p id='cyl2'></p>
     </article>
 
     <article>
-    <label for='ax1'>Ax:</label>
-    <input id='ax1' onkeydown="focusNext(event)" type="number" min="0" max="179">
-    <label for='ax1'>-->&nbsp</label>
-    <p id='ax2'></p><span>&deg;</span>
+        <label for='ax1'>Ax:</label>
+        <input id='ax1' onkeydown="focusNext(event)" type="number" min="0" max="179">
+        <label for='ax1'>-->&nbsp</label>
+        <p id='ax2'></p>
+        <p><sup>o</sup></p>
     </article>
-    <footer>Photo by <a href="https://unsplash.com/@bellahua?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Bella Huang</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a></footer>
+    <footer><span>Photo by <a
+                href="https://unsplash.com/@bellahua?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                target="_blank">Bella Huang</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a></span>
+    </footer>
 </body>
+
 </html>
